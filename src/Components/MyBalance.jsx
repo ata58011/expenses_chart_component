@@ -7,9 +7,9 @@ const MyBalance = () => {
         <h4> My Balance</h4>
         <p className="text-2xl font-bold">$921.48</p>
       </div>
-      <div id="inside-circles ">
-        <span className="inline-block w-12	h-12 border rounded-full"></span>
-        <span className="inline-block w-12	h-12 border rounded-full pr-2 bg-darkbrown border-darkbrown "></span>
+      <div class="flex">
+        <div class="w-16 h-16 border rounded-full z-10	"></div>
+        <div class="w-16 h-16 bg-darkbrown rounded-full -ml-8"></div>
       </div>
     </div>
   );
